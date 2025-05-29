@@ -23,7 +23,7 @@ const Hero = () => {
                                                 <img
                                                  src={word.imgPath} 
                                                  alt={word.text}
-                                                 className='xl:size-12 md:size-12 size-7 md:p-2 p-1 rounded-full bg-violet-500 hover:bg-violet-400 transition-all duration-50 ease-in-out shadow-lg'
+                                                 className='xl:size-12 md:size-12 size-7 md:p-2 p-1 rounded-full bg-black-100 transition-all duration-50 ease-in-out shadow-lg'
                                                  />
 
                                                  <span>{word.text}</span>
@@ -38,7 +38,7 @@ const Hero = () => {
                            Hi, I'm Kahfi, a passionate web developer
                         </p>
                         <Button
-                        className="md:w-80 md:h-16 w-60 h-12" 
+                        className=" md:w-80 md:h-16 w-60 h-12" 
                         id="button"
                         text="See My Work"
                         />
