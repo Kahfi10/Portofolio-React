@@ -218,7 +218,7 @@ section {
     }
 
     .text {
-      @apply uppercase md:text-lg text-white-100 font-semibold transition-all duration-1000
+      @apply uppercase md:text-base text-white-100 font-semibold transition-all duration-1000
         group-hover:bg-white-50 group-hover:text-black-200 group-hover:-translate-x-5 xl:translate-x-0 -translate-x-5;
     }
 

@@ -7,7 +7,7 @@ const Button = ({ text, className, id}) => {
             <div className='bg-circle' />
         <p className='text'>{text}</p>
         <div className='arrow-wrapper'>
-            <img className='arrow' src="/images/arrow-down.svg" alt="arrow" />
+            <img className='arrow' src="/images/down-arrow.png" alt="arrow" />
         </div> 
         </div>
     </a>
