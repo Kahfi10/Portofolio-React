@@ -9,6 +9,8 @@ export function Room(props) {
   const curtainMaterial = new THREE.MeshPhongMaterial({
     color: '#d8b9ff'
   })
+
+
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes._________6_blinn1_0.geometry} material={curtainMaterial} />
