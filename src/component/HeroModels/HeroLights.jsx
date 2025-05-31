@@ -33,6 +33,8 @@ const HeroLights = () => {
     position={[0, 5, 0]}
     penumbra={0.5}
     />
+
+    
     </>
   )
 }
