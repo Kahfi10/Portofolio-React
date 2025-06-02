@@ -1,5 +1,4 @@
 import { useGLTF, useTexture } from '@react-three/drei'
-import { color } from 'three/tsl'
 import * as THREE from 'three'
 
 export function Room(props) {
