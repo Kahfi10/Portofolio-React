@@ -2,15 +2,19 @@
 
 npm run dev
 
-# React + Vite
+# Portofolio-React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built with React and Vite. This project showcases your skills, projects, and professional background in a sleek and interactive manner.
 
-Currently, two official plugins are available:
+# 🚀 Features
+	•	Single Page Application (SPA): Smooth navigation without page reloads.
+	•	Responsive Design: Optimized for desktops, tablets, and mobile devices.
+	•	Fast Performance: Leveraging Vite for rapid development and optimized builds.
+	•	Clean Codebase: Structured with best practices for scalability and maintenance.
+	•	Easy Customization: Modify content and styles effortlessly to match your personal brand.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 🛠️ Tech Stack
+	•	Frontend: React
+	•	Build Tool: Vite
+	•	Linting: ESLint
+	•	Package Manager: npm
