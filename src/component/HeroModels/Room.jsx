@@ -1,8 +1,25 @@
-import { useGLTF, useTexture } from '@react-three/drei'
+import { useGSAP } from '@gsap/react'
+import { useGLTF } from '@react-three/drei'
 import * as THREE from 'three'
+import gsap from 'gsap'
 
 export function Room(props) {
-  const matcapTexture = useTexture('/images/textures/mat1.png')
+
+  useGSAP(() => {
+    gsap.fromTo('.hero-3d-layout', {
+      y: 50,
+      opacity: 0
+    },
+    {
+      y: 0,
+      opacity: 1,
+      duration: 1,
+      ease: 'power2.inOut',
+      stagger: 0.2
+    }
+  )
+  })
+
   const { nodes, materials } = useGLTF('/models/optimized-room.glb')
 
   const curtainMaterial = new THREE.MeshPhongMaterial({

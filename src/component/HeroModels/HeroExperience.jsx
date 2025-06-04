@@ -6,10 +6,11 @@ import { Room } from './Room';
 import HeroLights from './HeroLights';
 
 const HeroExperience = () => {
+  
     const isTablet = useMediaQuery({ query: '(max-width: 1024px)' });
     const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
   return (
-    <Canvas camera={{position: [15, 5, 10], fov: 60}} >
+    <Canvas camera={{position: [15, 5, 14], fov: 35}} >
 
 
         <OrbitControls
