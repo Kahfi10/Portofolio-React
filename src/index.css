@@ -236,7 +236,7 @@ section {
   }
 
   .card-border {
-    @apply border border-white-50 bg-white-100 m-3;
+    @apply bg-black-100 m-3;
   }
 
   .marquee-item {
@@ -430,6 +430,7 @@ section {
   z-index: 40;
   overflow: hidden;
   transition: border-color 1s ease-in-out;
+  border-radius: 7.5px;
 }
 
 .card::before {
@@ -440,7 +441,7 @@ section {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 12px;
+  border-radius: 7.5px;
   border: 2px solid transparent;
   background: var(--gradient);
   background-attachment: fixed;
@@ -448,7 +449,7 @@ section {
     conic-gradient(
       from calc((var(--start) - 15) * 1deg),
       #ffffff1f 0deg,
-      white,
+      #ffffff1f 100deg,
       #ffffff00 100deg
     );
   mask-composite: intersect;
@@ -466,7 +467,10 @@ section {
   top: 50%;
   transform: translate(-50%, -50%);
   filter: blur(10px);
-  filter: saturate(200);
+  border-radius: 12px;
+}
+.star-img{
+  filter: hue-rotate(100deg);
 }
 
 .card:hover::before {
