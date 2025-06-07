@@ -1,6 +1,5 @@
 import React from 'react'
 import { abilities } from '../constants/index.js'
-import { div } from 'three/tsl'
 
 const FeatureCards = () => {
   return (
