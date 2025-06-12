@@ -19,30 +19,26 @@ const ExperienceSection = () => {
                                     </div>
                                 </GlowCards>
                             </div>
-
                             <div className="xl:w-4/6">
                                 <div className="flex items-start">
-                                    <div className="timeline-wrapper">
-                                        <div className="timeline">
-                                            <div className="gradient-line w-1 h-full">
-
-                                            </div>
-
-                                            <div className="expText flex xl:gap-20 md:gap-10 gap-5 realtive z-10">
-                                                <div className="timeline-logo">
-                                                    <img src={card.logoPath} alt="logo" />
-                                                </div>
-                                                <div>
-                                                    <h1 className='font-semibold text-3xl'>{card.title}</h1>
-                                                    <p className='my-5 text-gray-800'>{card.date}</p>
-                                                    <p className='text-black-100 italic'>Responsibility</p>
-                                                    <ul className='list-disc ms-5 mt-5 flex flex-col gap-5 text-gray-800'>
-                                                        {card.responsibilities.map((responsibilities) => (
-                                                            <li key={responsibilities} className='text-lg'>{responsibilities}</li>
-                                                        ))}
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                    <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
+                                        <div>
+                                            <h1 className="font-semibold text-3xl">{card.title}</h1>
+                                            <p className="my-5 text-gray-800">
+                                                🗓️&nbsp;{card.date}
+                                            </p>
+                                            <p className="text-gray-900 italic">
+                                                Responsibilities
+                                            </p>
+                                            <ul className="list-disc ms-5 mt-5 flex flex-col gap-5 text-gray-800">
+                                                {card.responsibilities.map(
+                                                    (responsibility, idx) => (
+                                                        <li key={idx} className="text-lg">
+                                                            {responsibility}
+                                                        </li>
+                                                    )
+                                                )}
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>

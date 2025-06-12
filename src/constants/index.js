@@ -152,7 +152,7 @@ const expCards = [
     logoPath: "/images/logo1.png",
     title: "Frontend Developer",
     date: "January 2023 - Present",
-    responsibilities: [
+  responsibilities: [
       "Developed and maintained user-facing features for the Hostinger website.",
       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
       "Optimized web applications for maximum speed and scalability.",
